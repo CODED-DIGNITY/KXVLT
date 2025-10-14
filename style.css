@@ -8,8 +8,8 @@
 body{
     font-family: "Roboto", sans-serif;
     margin: 0;
-    background-color: #111;
-    color: #F1FAEE; 
+    background-color: #090b0b;
+    color: #F3e9dc; 
 }
 
 .header{
@@ -17,7 +17,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    color: #F1FAEE;
+    color: #F3e9dc;
 }
 .header .logo{
     font-size: 26px;
@@ -28,13 +28,13 @@ body{
     font-size: 20px;
     display: flex;
     gap: 15px;
-    color: #F1FAEE;
+    color: #F3e9dc;
 }
 
 .hero{
     height: 900px;
     background: radial-gradient(circle at top, #8B0000 ,#111  ); /* primary gradient */
-    color: #F1FAEE;
+    color: #F3e9dc;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -48,16 +48,16 @@ body{
     font-size: 60px;
     font-weight: 900;
     margin-top: -50px;
-    color: #E63946; /* accent for header text */
+    color: rgb(230, 57, 70); /* accent for header text */
 }
 .hero .undertext{
     width: 600px;
     font-size: 24px;
-    color: #F1FAEE;
+    color: #F3e9dc;
 }
 .hero button{
     margin-top: 10px;
-    background-color: #F1FAEE; /* crimson CTA */
+    background-color: #F3e9dc; /* crimson CTA */
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 15px;
@@ -91,7 +91,7 @@ body{
     padding: 50px;
 }
 .info .head{
-    color: #F1FAEE;
+    color: #F3e9dc;
     margin-top: -15px;
     font-size: 36px;
     font-weight: 900;
@@ -106,7 +106,7 @@ body{
 .container .card{
     width: 250px;
     border-radius: 25px;  /* deep navy card background */
-    color: #F1FAEE;
+    color: #F3e9dc;
     display: flex;
     flex: 0 1 100%;
     flex-direction: column;
@@ -137,8 +137,7 @@ body{
 
 .quote{
     min-height: 600px;
-    background:radial-gradient( circle at bottom,#399ce6,#004483) ; /* deep navy */
-    color: #F1FAEE;
+    background: radial-gradient(circle at bottom, #8B0000 10% ,#111  );
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -151,24 +150,23 @@ body{
     max-width: 60%;
     font-size: 36px;
     font-weight: 300;
-    color: #F1FAEE;
+    color: #F3e9dc;
 }
 .quote .speaker{
     font-size: 28px;
     margin-top: 20px;
-    color: #b0ffff; /* crimson accent */
+    color: #F3e9dc; /* crimson accent */
 }
 
 .cta{
-    background-color: white;
     padding: 75px 20px;
 }
 .cta-box{
     margin: 0px auto;
     width: 60%;
-    background:linear-gradient(0deg,hsl(358, 71%, 45%),#E63946);
+    background:radial-gradient( circle at bottom,#F3E9DC ,#f9f4ee) ;
     border-radius: 20px;
-    color: white;
+    color: #1b2021;
     padding: 25px;
     display: flex;
     justify-content: space-around;
@@ -184,8 +182,8 @@ body{
     font-size: 18px;
 }
 .cta-box button{
-    background-color: white;
-    color: black;
+    background-color: #E63946;
+    color: #F3E9DC;
     border: none;
     border-radius: 15px;
     font-size: 18px;
@@ -199,8 +197,8 @@ body{
 }
 
 .footer{
-    background-color:#616161; /* deep navy footer */
-    color: white;
+    background-color:#44494a; /* deep navy footer */
+    color: #F3e9dc;
     text-align: center;
     padding: 30px;
 }
