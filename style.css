@@ -22,7 +22,7 @@ body {
 .header .logo {
   font-size: 26px;
   font-weight: 900;
-  color: #e63946; /* crimson accent for logo */
+  color: #e63946;
 }
 .header .links {
   font-size: 20px;
@@ -33,11 +33,8 @@ body {
 
 .hero {
   min-height: 70vh;
-  background: radial-gradient(
-    circle at top,
-    #8b0000,
-    #111
-  ); /* primary gradient */
+  height: 100dvh;
+  background: radial-gradient(circle at top, #8b0000, #111);
   color: #f3e9dc;
   display: flex;
   justify-content: space-around;
